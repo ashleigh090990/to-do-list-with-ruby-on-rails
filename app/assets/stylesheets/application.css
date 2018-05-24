@@ -14,5 +14,5 @@
  *= require_self
  */
 
-@import 'global-styles';
+@import 'global-styles.scss';
 @import 'bootswatch-lux-min';
