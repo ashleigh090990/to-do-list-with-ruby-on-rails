@@ -1,5 +1,7 @@
 <h1>New Item</h1>
 
-<%= render 'form', item: @item %>
+<div class="showing">
+	<%= render 'form', item: @item %>
+</div>
 
-<%= link_to 'Back', items_path %>
+<h3><%= link_to '<span class="fas fa-arrow-alt-circle-left"></span>'.html_safe, items_path %></h3>
