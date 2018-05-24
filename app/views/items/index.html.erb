@@ -6,10 +6,12 @@
 
 
 <% @items.each do |item| %>
-  <h3><%= item.item %>
-  <%= link_to 'Show', item %>
-  <%= link_to 'Edit', edit_item_path(item) %>
-  <%= link_to 'Destroy', item, method: :delete, data: { confirm: 'Are you sure?' } %></h3>
+  <h3>
+    <%= link_to '<span class="far fa-check-square"></span>'.html_safe, item, method: :delete, data: { confirm: 'Are you sure?' } %>
+    <%= item.item %>
+    <%= link_to 'Show', item %>
+     <%= link_to '<span class="far fa-edit"></span>'.html_safe, edit_item_path(item) %>
+  </h3>
 <% end %>
 
 <br>

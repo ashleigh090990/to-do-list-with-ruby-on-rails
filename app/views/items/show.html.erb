@@ -1,9 +1,11 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Item:</strong>
+  <strong>To do:</strong>
   <%= @item.item %>
 </p>
 
-<%= link_to 'Edit', edit_item_path(@item) %> |
-<%= link_to 'Back', items_path %>
+<h3>
+	<%= link_to '<span class="fas fa-arrow-alt-circle-left"></span>'.html_safe, items_path %>
+	<%= link_to '<span class="far fa-edit"></span>'.html_safe, edit_item_path(@item) %>
+</h3>
