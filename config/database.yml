@@ -7,11 +7,15 @@
 default: &default
   pool: 5
   timeout: 5000
+  username : <%= ENV["PG_UN"] %> #username of db
+  password : <%= ENV["PG_PW"] %> #password of db, if no password then make it blank
 
 development:
   <<: *default
-  adapter: sqlite3
-  database: db/development.sqlite3
+  # adapter: sqlite3
+  # database: db/development.sqlite3
+  adapter: postgresql
+  database: my_database_dev
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
