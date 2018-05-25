@@ -1,33 +1,22 @@
+/* Variables */
 
+/* Images */
+$marble-river-img: image_url('header-image.jpg');
+
+/* App images */
+$header-image: $marble-river-img;
+
+/* Colours */
 $rose-pink: rgb(191,125,132);
 $mauve-blue: rgb(129, 136, 186);
 
-
+/* App colours */
 $app-primary-col: $mauve-blue;
 $app-primary-col-faded: transparentize($app-primary-col, .5);
 $app-secondary-col: $rose-pink;
 $app-secondary-col-faded: transparentize($app-secondary-col, .5);
 
+/* App colour gradients */
 $app-color-gradient: linear-gradient(127deg, #{$app-secondary-col-faded}, transparent 70.71%), 
     linear-gradient(336deg, #{$app-primary-col-faded}, transparent 70.71%);
-
-$header-image: image_url('header-image.jpg');
-
-.app-header {
-  background: $app-color-gradient, $header-image;
-  background-size: cover;
-  background-position: center center;
-  padding: 70px 0 5px;
-
-  h1 {
-  	color: white;
-  }
-}
-
-
-h1 {
-	font-family: 'Playfair Display', serif;
-	font-weight: 100;
-	font-size: 4em;
-	letter-spacing: 5px;
-}
+$app-header-image: $header-image;
