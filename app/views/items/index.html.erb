@@ -6,14 +6,7 @@
 
 
 <div class="index">
-  <% @items.each do |item| %>
-    <h3>
-      <%= link_to '<span class="far fa-check-square"></span>'.html_safe, item, method: :delete, data: { confirm: 'Are you sure?' } %>
-      <%= item.item %>
-      <%= link_to '<span class="far fa-sticky-note"></span>'.html_safe, item %>
-       <%= link_to '<span class="far fa-edit"></span>'.html_safe, edit_item_path(item) %>
-    </h3>
-  <% end %>
+  
 </div>
 
 <br>
