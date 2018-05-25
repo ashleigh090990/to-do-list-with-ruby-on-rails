@@ -3,18 +3,26 @@
 /* Images */
 $marble-river-img: image_url('header-image.jpg');
 
-/* App images */
-$header-image: $marble-river-img;
-
 /* Colours */
 $rose-pink: rgb(191,125,132);
 $mauve-blue: rgb(129, 136, 186);
+$dark-blue: #36384c;
 
-/* App colours */
+/* App main colours */
 $app-primary-col: $mauve-blue;
 $app-primary-col-faded: transparentize($app-primary-col, .5);
 $app-secondary-col: $rose-pink;
 $app-secondary-col-faded: transparentize($app-secondary-col, .5);
+$app-body-col: $dark-blue;
+
+/* App element colours */
+$body-text-col: $app-body-col;
+$link-hover-col: $app-primary-col-faded;
+$btn-col: $app-body-col;
+$btn-hover-col: $app-primary-col-faded;
+
+/* App images */
+$header-image: $marble-river-img;
 
 /* App colour gradients */
 $app-color-gradient: linear-gradient(127deg, #{$app-secondary-col-faded}, transparent 70.71%), 

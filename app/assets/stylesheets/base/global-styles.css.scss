@@ -1,3 +1,27 @@
 .text-centre-align {
 	text-align: center;
 }
+
+body * {
+	color: $body-text-col;
+}
+
+/* Links */
+
+a {
+	&:hover {
+		span {
+		  color: $link-hover-col;
+		}
+	}
+}
+
+/* Buttons*/
+
+.btn-primary {
+	background-color: $btn-col;
+
+	&:hover {
+		background-color: $btn-hover-col;
+	}
+}
