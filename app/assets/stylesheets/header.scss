@@ -1,0 +1,16 @@
+.app-header {
+  background: linear-gradient(127deg, rgba(191,125,132,.5), rgba(191,125,132,0) 70.71%), 
+    linear-gradient(336deg, rgba(129, 136, 186,.8), rgba(129, 136, 186,0) 70.71%), 
+    url(https://images.unsplash.com/photo-1526247173244-aa7f7c4a7024?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=702b20b…&auto=format);
+  background-size: cover;
+  background-position: center center;
+  padding: 70px 0 5px;
+
+  h1 {
+  	color: white;
+  	font-family: 'Playfair Display', serif;
+  	font-weight: 100;
+  	font-size: 4em;
+  	letter-spacing: 5px;
+  }
+}

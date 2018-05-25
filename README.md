@@ -28,8 +28,11 @@ Note for future Heroku deployments, used 'heroku config:set PG_UN=pgpassword' to
 Aims to improve app:
 --------------------
 
+[ ] Click and drag reordering of tasks
+[ ] Give tasks 'levels' depending on priority/urgency of task
 [ ] Header navigation bar/images to improve look
 [ ] CMS
+[ ] Categorise tasks (such as banking/work)
 [ ] Add content translation in italian
 [ ] Ability to add details to tasks
 [ ] Ability to add attachments to tasks
@@ -37,3 +40,6 @@ Aims to improve app:
 [ ] Hovering over links - get rid of black background colour
 [ ] Hovering over task checkboxes reverts colours/shows inverted font awesome checkbox
 [ ] Disable adding tasks if they're empty
+[ ] Change mobile design to be more mobile app like (add task button to always be at bottom of page even if task list long?)
+[ ] Backlog tasks - if they're not important, be able to hide them in a separate view so task list isn't clogged
+[ ] Maybe a points system - assign points to a task so that there is a feeling of achievement when it's completed - more motivation to finish it for user
