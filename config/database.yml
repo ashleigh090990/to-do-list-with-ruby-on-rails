@@ -7,8 +7,8 @@
 default: &default
   pool: 5
   timeout: 5000
-  username : <%= ENV["PG_UN"] %> #username of db
-  password : <%= ENV["PG_PW"] %> #password of db, if no password then make it blank
+  username : <%= Rails.application.secrets[:PG_UN] %> #username of db
+  password : <%= Rails.application.secrets[:PG_PW] %> #password of db, if no password then make it blank
 
 development:
   <<: *default
