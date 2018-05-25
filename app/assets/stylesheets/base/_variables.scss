@@ -25,6 +25,8 @@ $btn-hover-col: $app-primary-col-faded;
 $header-image: $marble-river-img;
 
 /* App colour gradients */
-$app-color-gradient: linear-gradient(127deg, #{$app-secondary-col-faded}, transparent 70.71%), 
-    linear-gradient(336deg, #{$app-primary-col-faded}, transparent 70.71%);
+$app-color-gradient: linear-gradient(to bottom right, #{$app-secondary-col-faded}, transparent 70.71%), 
+    linear-gradient(to bottom left, #{$app-primary-col-faded}, transparent 70.71%),
+    linear-gradient(to top left, rgba(255, 255, 255, 1), transparent 50%),
+    linear-gradient(to top right, rgba(255, 255, 255, 1), transparent 50%);
 $app-header-image: $header-image;

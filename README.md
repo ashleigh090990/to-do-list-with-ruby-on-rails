@@ -47,6 +47,10 @@ Clear cache ```heroku run rake tmp:clear```
 Aims to improve app:
 --------------------
 
+[ ] Enable login for users to have separate tasks
+
+[ ] Add Procfile for Heroku (to pre compile assets beforehand? Look into)
+
 [ ] Click and drag reordering of tasks
 
 [ ] Give tasks 'levels' depending on priority/urgency of task
@@ -65,7 +69,7 @@ Aims to improve app:
 
 [ ] Adding deadlines to tasks
 
-[ ] Hovering over links - get rid of black background colour
+[x] Hovering over links - get rid of black background colour
 
 [ ] Hovering over task checkboxes reverts colours/shows inverted font awesome checkbox
 
