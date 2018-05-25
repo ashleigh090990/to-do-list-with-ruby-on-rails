@@ -21,6 +21,12 @@ a {
 .btn-primary {
 	background-color: $btn-col;
 
+	&:focus,
+	&:visited,
+	&:active {
+	  background-color: $btn-col;
+	}
+
 	&:hover {
 		background-color: $btn-hover-col;
 	}
