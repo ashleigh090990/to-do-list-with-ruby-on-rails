@@ -40,6 +40,10 @@ Note to self: deployment to Heroku was fine - needed to run ```heroku run rake d
 
 Then run ```heroku run rake db:migrate```, app error "We're sorry something went wrong" will be resolved
 
+Compile styles before deployment```rake assets:precompile```
+
+Clear cache ```heroku run rake tmp:clear```
+
 Aims to improve app:
 --------------------
 
